@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/250', function () {
+    return view('250');
+});
+
+Route::get('/250_database', function () {
+    return view('250_database');
 });
